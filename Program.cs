@@ -30,7 +30,7 @@ namespace D5Ex1
                 }
             }
 
-            Console.WriteLine("\nDay\tTotalSalary");
+            Console.WriteLine("\nDay1\tDay2\tDay3\tDay4\tDay5\ttotalSalary");
 
             for (int i = 0; i < numEmployees; i++)
             {
@@ -41,7 +41,7 @@ namespace D5Ex1
                     totalSalary += employeeSalaries[i][j];
                 }
 
-                Console.WriteLine($"Employee {i + 1}\t{totalSalary}");
+                Console.WriteLine($"Employee {i + 1}\t\t\t\t{totalSalary}");
             }
 
             Console.ReadLine();
